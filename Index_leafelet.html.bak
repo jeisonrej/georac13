@@ -53,10 +53,10 @@
 	
 	L.control.scale().addTo(map);
 
-	/*var wmsLayer = L.tileLayer.wms('http://localhost:8080/geoserver/georac13/wms?', {
+	var wmsLayer = L.tileLayer.wms('http://localhost:8080/geoserver/georac13/wms?', {
 		layers: 'Fronteras,Buffer_Aeropuertos'
 		//transparent: true
-	}).addTo(map);*/
+	}).addTo(map);
 	
 	
 	var overlays = {
