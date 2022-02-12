@@ -1,0 +1,36 @@
+:root {
+    --bg-navbar: #4dabf7;
+    --bg-bases: #FFC000;
+    --bg-aerodromo: #ED7D31;
+    --bg-aeropuertos: #5B9BD5;
+    --bg-carceles: #0033CC;
+    --bg-centrosPobladosPol: #01B925;
+    --bg-estacionesPolicia: #006601;
+    --bg-helipuertos: #D58FFD;
+    --bg-fronteras: #A5A5A5;     
+  }
+
+
+.container-fluid {
+    padding-right: 0px; 
+    padding-left: 0px;
+}
+
+.bases-leyenda{ background-color:var(--bg-bases); padding:1px 7px }
+.aerodromo-leyenda{ background-color:var(--bg-aerodromo); padding:1px 7px }
+.aeropuertos-leyenda{ background-color:var(--bg-aeropuertos); padding:1px 7px }
+.carceles-leyenda{ background-color:var(--bg-carceles); padding:1px 7px }
+.centrosPobladosPol-leyenda{ background-color:var(--bg-centrosPobladosPol); padding:1px 7px }
+.estacionesPolicia-leyenda{ background-color:var(--bg-estacionesPolicia); padding:1px 7px }
+.helipuertos-leyenda{ background-color:var(--bg-helipuertos); padding:1px 7px }
+.fronteras-leyenda{ background-color:var(--bg-fronteras); padding:1px 7px }
+
+.banner{background: var(--bg-navbar); padding-left: 10px;}
+
+#lienzo { height: 90%;}
+
+.btnNavBar{
+  background-color: var(--bg-navbar); 
+	border-color: var(--bg-navbar);
+}
+
