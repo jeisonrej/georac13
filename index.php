@@ -23,7 +23,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.js"></script>
     <script src="js/turf.js"></script> <!--LIBRERIA PARA INTERSECCIÓN-->
 	<script src="https://openlayers.org/en/v5.3.0/build/ol.js"></script> 	
-	<script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.1/dist/html2canvas.min.js"></script>
+	<script src="js/htmlcanvas.js"></script>
 	<script src="js/analyzeTool.js"></script>
 	<script src="js/utilities.js"></script>
 	
